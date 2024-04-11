@@ -17,7 +17,7 @@ find_package(sensor_msgs REQUIRED)
 include_directories(include)
 
 # Declare a C++ executable
-add_executable(${PROJECT_NAME}_node src/capra_thermal_cam_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/capra_thermal_cam_node.cpp)
 
 # Specify libraries to link a library or executable target against
 ament_target_dependencies(${PROJECT_NAME}_node
