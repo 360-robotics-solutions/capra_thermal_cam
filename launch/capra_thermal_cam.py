@@ -9,7 +9,7 @@ def generate_launch_description():
             name='capra_thermal_cam',
             output='screen',
             parameters=[
-                {'video_device': '/dev/video2'},
+                {'video_device': '/dev/video3'},
                 {'image_width': 160},
                 {'image_height': 120},
                 {'pixel_format': 'uyvy'},
